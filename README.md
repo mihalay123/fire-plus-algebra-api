@@ -10,11 +10,11 @@ Unfortunately the idea was a failure. The project is unfinished.
 
 For planning and cooperation of work we used such products of the company Atlassian as:\
 
-#### `Jira`
+##### `Jira`
 
-#### `Bitbucket`
+##### `Bitbucket`
 
-#### `Confluence`
+##### `Confluence`
 
 ## What you can see about me here
 
@@ -22,11 +22,11 @@ For planning and cooperation of work we used such products of the company Atlass
 
 There are three independent abstraction layers in the app.
 
-#### `Data Access Layer`
+##### `Data Access Layer`
 
-#### `Controller`
+##### `Controller`
 
-#### `Service`
+##### `Service`
 
 ### PostgreSQL interaction
 
