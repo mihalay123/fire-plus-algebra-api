@@ -30,10 +30,10 @@ There are three independent abstraction layers in the app.
 
 ### PostgreSQL interaction
 
-I worked with Postges via [PG](https://www.npmjs.com/package/pg "PG") library 
+I worked with Postges via [`PG`](https://www.npmjs.com/package/pg "PG") library 
 
 ### Rest API example
 
-For my goal I have been used Express library.
+For my goal I have been used `Express` library.
 
 The list of endpoints contained in [`routers`](./app/routers) folder.
