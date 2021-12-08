@@ -4,7 +4,6 @@
 
 We, composing of four people (backend, frontend, designer, client), tried to develop an educational website on writing skill.
 
-
 Unfortunately the idea was a failure. The project is unfinished.
 
 ## What we used
