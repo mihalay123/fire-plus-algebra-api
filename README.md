@@ -36,4 +36,4 @@ I worked with Postges via [PG](https://www.npmjs.com/package/pg "PG") library
 
 For my goal I have been used Express library.
 
-The list of endpoints conteined in [`routers`](./app/routers) folder.
+The list of endpoints contained in [`routers`](./app/routers) folder.
