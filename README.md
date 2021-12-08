@@ -30,7 +30,7 @@ There are three independent abstraction layers in the app.
 
 ### PostgreSQL interaction
 
-I worked with Postges via PG library 
+I worked with Postges via [PG](https://www.npmjs.com/package/pg) library 
 
 ### Rest API example
 
