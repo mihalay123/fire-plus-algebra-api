@@ -1,0 +1,33 @@
+#  Template NodeJS build
+
+#  This template allows you to validate your NodeJS code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: node:10.15.3
+
+options:
+  max-time: 5
+pipelines:
+  default:
+    - parallel:
+        - step:
+            name: Code linting
+            script:
+              - npm install eslint
+              - npx eslint .
+            caches:
+              - node
+        - step:
+            name: Deploy to test
+            deployment: test
+            script:
+              - echo "Deploying to test environment"
+              - pipe: atlassian/ssh-run:0.2.2
+                variables:
+                     SSH_USER: 'ivan_semin'
+                     SERVER: 'ivansemin.keenetic.pro'
+                     PORT: 222
+                     TERM: "screen"
+                     COMMAND: 'sh ~/Projects/fire-plus-algebra/fire-plus-algebra-api/deploy.sh'
+            after-script:
+              - echo "DONE"
