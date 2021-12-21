@@ -1,6 +1,4 @@
-# NodeJs backend 
-
-## It was a startup
+# NodeJs backend startup
 
 We, composing of four people (backend, frontend, designer, client), tried to develop an educational website on writing skill.
 
