@@ -37,3 +37,9 @@ I worked with Postges via [`PG`](https://www.npmjs.com/package/pg "PG") library
 For my goal I have been used `Express` library.
 
 The list of endpoints contained in [`routers`](./app/routers) folder.
+
+## My other projects
+
+[`Diploma`](https://github.com/IvanSemin33/RPTDMS-UI)
+
+[`Next.js Test Task`](https://github.com/mihalay123/test-task-twitch-search)
